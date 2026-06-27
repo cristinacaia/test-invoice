@@ -14,7 +14,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
      </rsm:ExchangedDocumentContext>
      <rsm:ExchangedDocument>
           <!-- TODO REPLACE FACTURE NUMBER -->
-          <ram:ID>F20260504-0001</ram:ID>
+          <ram:ID>F20260504-0001-6789000546738</ram:ID>
           <ram:TypeCode>380</ram:TypeCode>
           <ram:IssueDateTime>
                <udt:DateTimeString format="102">20251114</udt:DateTimeString>
@@ -303,7 +303,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                     <ram:Name>LE FOURNISSEUR</ram:Name>
                     <ram:SpecifiedLegalOrganization>
                          <!-- TODO REPLACE SELLER SIREN -->
-                         <ram:ID schemeID="0002">847760907</ram:ID>
+                         <ram:ID schemeID="0002">102394053</ram:ID>
                          <ram:TradingBusinessName>BAGUETTE</ram:TradingBusinessName>
                     </ram:SpecifiedLegalOrganization>
                     <ram:DefinedTradeContact>
@@ -334,7 +334,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                     <ram:Name>MONSIEUR CRISTINA CAIA</ram:Name>
                     <ram:SpecifiedLegalOrganization>
                          <!-- TODO REPLACE BUYER SIREN -->
-                         <ram:ID schemeID="0002">900554676</ram:ID>
+                         <ram:ID schemeID="0002">841503204</ram:ID>
                     </ram:SpecifiedLegalOrganization>
                     <ram:DefinedTradeContact>
                          <ram:PersonName>Cristina Caia</ram:PersonName>
