@@ -13,7 +13,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </ram:GuidelineSpecifiedDocumentContextParameter>
      </rsm:ExchangedDocumentContext>
      <rsm:ExchangedDocument>
-          <ram:ID>F78787878787817-july-web-test-01-87478478478478784478</ram:ID>
+          <ram:ID>test-send-event-202</ram:ID>
           <ram:TypeCode>380</ram:TypeCode>
           <ram:IssueDateTime>
                <udt:DateTimeString format="102">20251114</udt:DateTimeString>
