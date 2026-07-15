@@ -13,7 +13,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </ram:GuidelineSpecifiedDocumentContextParameter>
      </rsm:ExchangedDocumentContext>
      <rsm:ExchangedDocument>
-          <ram:ID>test-14072026-1517</ram:ID>
+          <ram:ID>test-partial-payments-1</ram:ID>
           <ram:TypeCode>380</ram:TypeCode>
           <ram:IssueDateTime>
                <udt:DateTimeString format="102">20251114</udt:DateTimeString>
@@ -328,10 +328,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                     </ram:SpecifiedTaxRegistration>
                </ram:SellerTradeParty>
                <ram:BuyerTradeParty>
-     <ram:GlobalID schemeID="0009">79422396600001</ram:GlobalID>
+     <ram:GlobalID schemeID="0009">84150320400015</ram:GlobalID>
      <ram:Name>MONSIEUR CRISTINA CAIA</ram:Name>
      <ram:SpecifiedLegalOrganization>
-          <ram:ID schemeID="0002">794223966</ram:ID>
+          <ram:ID schemeID="0002">841503204</ram:ID>
      </ram:SpecifiedLegalOrganization>
      <ram:DefinedTradeContact>
           <ram:PersonName>Cristina Caia</ram:PersonName>
@@ -350,10 +350,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <ram:CountryID>FR</ram:CountryID>
      </ram:PostalTradeAddress>
      <ram:URIUniversalCommunication>
-          <ram:URIID schemeID="0225">794223966_79422396600001</ram:URIID>
+          <ram:URIID schemeID="0225">841503204_84150320400015</ram:URIID>
      </ram:URIUniversalCommunication>
      <ram:SpecifiedTaxRegistration>
-          <ram:ID schemeID="VA">FR66794223966</ram:ID>
+          <ram:ID schemeID="VA">FR71841503204</ram:ID>
      </ram:SpecifiedTaxRegistration>
 </ram:BuyerTradeParty>
                <ram:SellerTaxRepresentativeTradeParty>
