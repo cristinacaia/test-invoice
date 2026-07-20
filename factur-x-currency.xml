@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rsm:CrossIndustryInvoice xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100" xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:100" xmlns:rsm="urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100">
+
   <rsm:ExchangedDocumentContext>
     <ram:BusinessProcessSpecifiedDocumentContextParameter>
-      <!-- TODO REPLACE facture number -->
-      <ram:ID>F20202605281400-01</ram:ID>
+      <ram:ID>F2020260611-00223334444</ram:ID>
     </ram:BusinessProcessSpecifiedDocumentContextParameter>
     <ram:GuidelineSpecifiedDocumentContextParameter>
       <ram:ID>urn:cen.eu:en16931:2017#conformant#urn:factur-x.eu:1p0:extended</ram:ID>
     </ram:GuidelineSpecifiedDocumentContextParameter>
   </rsm:ExchangedDocumentContext>
+
   <rsm:ExchangedDocument>
     <ram:ID>VNXFLEX0015</ram:ID>
     <ram:TypeCode>380</ram:TypeCode>
@@ -32,7 +33,9 @@
       <ram:SubjectCode>BAR</ram:SubjectCode>
     </ram:IncludedNote>
   </rsm:ExchangedDocument>
+
   <rsm:SupplyChainTradeTransaction>
+
     <ram:IncludedSupplyChainTradeLineItem>
       <ram:AssociatedDocumentLineDocument>
         <ram:LineID>1</ram:LineID>
@@ -60,13 +63,15 @@
         </ram:SpecifiedTradeSettlementLineMonetarySummation>
       </ram:SpecifiedLineTradeSettlement>
     </ram:IncludedSupplyChainTradeLineItem>
+
     <ram:ApplicableHeaderTradeAgreement>
+
       <ram:SellerTradeParty>
-        <ram:GlobalID schemeID="0009">47589696500013</ram:GlobalID>
+        <!-- SIRET: 80804973800038, SIREN: 808049738 — all consistent -->
+        <ram:GlobalID schemeID="0009">80804973800038</ram:GlobalID>
         <ram:Name>FLEXIP</ram:Name>
         <ram:SpecifiedLegalOrganization>
-          <!-- TODO REPLACE SELLER SIREN -->
-          <ram:ID schemeID="0002">847760907</ram:ID>
+          <ram:ID schemeID="0002">808049738</ram:ID>
           <ram:TradingBusinessName>FLEXIP</ram:TradingBusinessName>
         </ram:SpecifiedLegalOrganization>
         <ram:PostalTradeAddress>
@@ -77,17 +82,21 @@
           <ram:CountrySubDivisionName>92</ram:CountrySubDivisionName>
         </ram:PostalTradeAddress>
         <ram:URIUniversalCommunication>
-          <ram:URIID schemeID="0225">475896965_47589696500013</ram:URIID>
+          <!-- Format: SIREN_SIRET, both matching -->
+          <ram:URIID schemeID="0225">808049738_80804973800038</ram:URIID>
         </ram:URIUniversalCommunication>
         <ram:SpecifiedTaxRegistration>
-          <ram:ID schemeID="VA">FR34937491298</ram:ID>
+          <!-- FR + 2-digit key + SIREN. You should verify this VAT number matches SIREN 808049738 -->
+          <ram:ID schemeID="VA">FR83808049738</ram:ID>
         </ram:SpecifiedTaxRegistration>
       </ram:SellerTradeParty>
+
       <ram:BuyerTradeParty>
-        <ram:GlobalID schemeID="0009">69956563600015</ram:GlobalID>
+        <!-- SIRET: 92825344200018, SIREN: 808049738 — all consistent -->
+        <ram:GlobalID schemeID="0009">92825344200018</ram:GlobalID>
         <ram:Name>PARIS INNOVATION</ram:Name>
         <ram:SpecifiedLegalOrganization>
-          <ram:ID schemeID="0002">900554676</ram:ID>
+          <ram:ID schemeID="0002">928253442</ram:ID>
         </ram:SpecifiedLegalOrganization>
         <ram:PostalTradeAddress>
           <ram:PostcodeCode>75008</ram:PostcodeCode>
@@ -97,16 +106,21 @@
           <ram:CountrySubDivisionName>75</ram:CountrySubDivisionName>
         </ram:PostalTradeAddress>
         <ram:URIUniversalCommunication>
-          <ram:URIID schemeID="0225">699565636_69956563600015</ram:URIID>
+          <!-- Format: SIREN_SIRET, both matching -->
+          <ram:URIID schemeID="0225">928253442_92825344200018</ram:URIID>
         </ram:URIUniversalCommunication>
         <ram:SpecifiedTaxRegistration>
-          <ram:ID schemeID="VA">FR16102493079</ram:ID>
+          <!-- Verify this VAT number matches SIREN 808049738 -->
+          <ram:ID schemeID="VA">FR72928253442</ram:ID>
         </ram:SpecifiedTaxRegistration>
       </ram:BuyerTradeParty>
+
       <ram:BuyerOrderReferencedDocument>
         <ram:IssuerAssignedID>2502USD</ram:IssuerAssignedID>
       </ram:BuyerOrderReferencedDocument>
+
     </ram:ApplicableHeaderTradeAgreement>
+
     <ram:ApplicableHeaderTradeDelivery>
       <ram:ShipToTradeParty>
         <ram:PostalTradeAddress>
@@ -118,6 +132,7 @@
         </ram:PostalTradeAddress>
       </ram:ShipToTradeParty>
     </ram:ApplicableHeaderTradeDelivery>
+
     <ram:ApplicableHeaderTradeSettlement>
       <ram:PaymentReference>VNXFLEX0015</ram:PaymentReference>
       <ram:TaxCurrencyCode>EUR</ram:TaxCurrencyCode>
@@ -150,5 +165,7 @@
         <ram:DuePayableAmount>1140.00</ram:DuePayableAmount>
       </ram:SpecifiedTradeSettlementHeaderMonetarySummation>
     </ram:ApplicableHeaderTradeSettlement>
+
   </rsm:SupplyChainTradeTransaction>
+
 </rsm:CrossIndustryInvoice>

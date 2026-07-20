@@ -14,7 +14,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
      </rsm:ExchangedDocumentContext>
      <rsm:ExchangedDocument>
           <!-- TODO REPLACE FACTURE NUMBER -->
-          <ram:ID>F20202605271619-001</ram:ID>
+          <ram:ID>test-seresnia-fix-facturX</ram:ID>
           <ram:TypeCode>380</ram:TypeCode>
           <ram:IssueDateTime>
                <udt:DateTimeString format="102">20251114</udt:DateTimeString>
@@ -60,16 +60,16 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                     <ram:BuyerOrderReferencedDocument>
                          <ram:LineID>1</ram:LineID>
                     </ram:BuyerOrderReferencedDocument>
-                     <ram:GrossPriceProductTradePrice>
+                    <ram:GrossPriceProductTradePrice>
                          <ram:ChargeAmount>60.0000</ram:ChargeAmount>
                          <ram:BasisQuantity unitCode="C62">1.0000</ram:BasisQuantity>
-                          <ram:AppliedTradeAllowanceCharge>
+                         <ram:AppliedTradeAllowanceCharge>
                               <ram:ChargeIndicator>
                                    <udt:Indicator>false</udt:Indicator>
                               </ram:ChargeIndicator>
                               <ram:ActualAmount>0.0000</ram:ActualAmount>
-                          </ram:AppliedTradeAllowanceCharge>
-                     </ram:GrossPriceProductTradePrice>
+                         </ram:AppliedTradeAllowanceCharge>
+                    </ram:GrossPriceProductTradePrice>
                     <ram:NetPriceProductTradePrice>
                          <ram:ChargeAmount>60.0000</ram:ChargeAmount>
                          <ram:BasisQuantity unitCode="C62">1.0000</ram:BasisQuantity>
@@ -176,16 +176,16 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                     <ram:BuyerOrderReferencedDocument>
                          <ram:LineID>3</ram:LineID>
                     </ram:BuyerOrderReferencedDocument>
-                     <ram:GrossPriceProductTradePrice>
+                    <ram:GrossPriceProductTradePrice>
                          <ram:ChargeAmount>30.0000</ram:ChargeAmount>
                          <ram:BasisQuantity unitCode="C62">3.0000</ram:BasisQuantity>
-                          <ram:AppliedTradeAllowanceCharge>
+                         <ram:AppliedTradeAllowanceCharge>
                               <ram:ChargeIndicator>
                                    <udt:Indicator>false</udt:Indicator>
                               </ram:ChargeIndicator>
                               <ram:ActualAmount>0.0000</ram:ActualAmount>
-                          </ram:AppliedTradeAllowanceCharge>
-                     </ram:GrossPriceProductTradePrice>
+                         </ram:AppliedTradeAllowanceCharge>
+                    </ram:GrossPriceProductTradePrice>
                     <ram:NetPriceProductTradePrice>
                          <ram:ChargeAmount>30.0000</ram:ChargeAmount>
                          <ram:BasisQuantity unitCode="C62">3.0000</ram:BasisQuantity>
@@ -269,15 +269,15 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                     <ram:BuyerOrderReferencedDocument>
                          <ram:LineID>2</ram:LineID>
                     </ram:BuyerOrderReferencedDocument>
-                     <ram:GrossPriceProductTradePrice>
+                    <ram:GrossPriceProductTradePrice>
                          <ram:ChargeAmount>7.0000</ram:ChargeAmount>
-                          <ram:AppliedTradeAllowanceCharge>
+                         <ram:AppliedTradeAllowanceCharge>
                               <ram:ChargeIndicator>
                                    <udt:Indicator>false</udt:Indicator>
                               </ram:ChargeIndicator>
                               <ram:ActualAmount>0.0000</ram:ActualAmount>
-                          </ram:AppliedTradeAllowanceCharge>
-                     </ram:GrossPriceProductTradePrice>
+                         </ram:AppliedTradeAllowanceCharge>
+                    </ram:GrossPriceProductTradePrice>
                     <ram:NetPriceProductTradePrice>
                          <ram:ChargeAmount>7.0000</ram:ChargeAmount>
                     </ram:NetPriceProductTradePrice>
@@ -299,11 +299,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <ram:ApplicableHeaderTradeAgreement>
                <ram:SellerTradeParty>
                     <ram:ID>123</ram:ID>
-                    <ram:GlobalID schemeID="0088">019182620</ram:GlobalID>
+                    <ram:GlobalID schemeID="0009">10239405300015</ram:GlobalID>
                     <ram:Name>LE FOURNISSEUR</ram:Name>
                     <ram:SpecifiedLegalOrganization>
                          <!-- TODO REPLACE SELLER SIREN -->
-                         <ram:ID schemeID="0002">847760907</ram:ID>
+                         <ram:ID schemeID="0002">102394053</ram:ID>
                          <ram:TradingBusinessName>BAGUETTE</ram:TradingBusinessName>
                     </ram:SpecifiedLegalOrganization>
                     <ram:DefinedTradeContact>
@@ -323,39 +323,42 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                          <ram:CountryID>FR</ram:CountryID>
                     </ram:PostalTradeAddress>
                     <ram:URIUniversalCommunication>
-                         <ram:URIID schemeID="EM">moi@seller.com</ram:URIID>
+                         <ram:URIID schemeID="0225">102394053_10239405300015</ram:URIID>
                     </ram:URIUniversalCommunication>
                     <ram:SpecifiedTaxRegistration>
-                         <ram:ID schemeID="VA">FR019182620</ram:ID>
+                         <ram:ID schemeID="VA">FR49102394053</ram:ID>
                     </ram:SpecifiedTaxRegistration>
                </ram:SellerTradeParty>
                <ram:BuyerTradeParty>
-                    <ram:GlobalID schemeID="0088">227025244</ram:GlobalID>
+                    <ram:GlobalID schemeID="0009">84150320400015</ram:GlobalID>
                     <ram:Name>MONSIEUR CRISTINA CAIA</ram:Name>
                     <ram:SpecifiedLegalOrganization>
-                         <!-- TODO REPLACE BUYER SIREN -->
-                         <ram:ID schemeID="0002">980892756</ram:ID>
+                    <!-- TODO REPLACE BUYER SIREN -->
+                    <ram:ID schemeID="0002">841503204</ram:ID>
                     </ram:SpecifiedLegalOrganization>
                     <ram:DefinedTradeContact>
-                         <ram:PersonName>Cristina Caia</ram:PersonName>
-                         <ram:DepartmentName>Buyer dep</ram:DepartmentName>
-                         <ram:TelephoneUniversalCommunication>
-                              <ram:CompleteNumber>0101254587</ram:CompleteNumber>
-                         </ram:TelephoneUniversalCommunication>
-                         <ram:EmailURIUniversalCommunication>
-                              <ram:URIID>buyer@buyer.com</ram:URIID>
-                         </ram:EmailURIUniversalCommunication>
-                    </ram:DefinedTradeContact>
-                    <ram:PostalTradeAddress>
-                         <ram:PostcodeCode>38000</ram:PostcodeCode>
-                         <ram:LineOne>1 rue de la street</ram:LineOne>
-                         <ram:CityName>Grenoble</ram:CityName>
-                         <ram:CountryID>FR</ram:CountryID>
-                    </ram:PostalTradeAddress>
-                    <ram:SpecifiedTaxRegistration>
-                         <ram:ID schemeID="VA">FR227025244</ram:ID>
-                    </ram:SpecifiedTaxRegistration>
-               </ram:BuyerTradeParty>
+          <ram:PersonName>Cristina Caia</ram:PersonName>
+          <ram:DepartmentName>Buyer dep</ram:DepartmentName>
+          <ram:TelephoneUniversalCommunication>
+               <ram:CompleteNumber>0101254587</ram:CompleteNumber>
+          </ram:TelephoneUniversalCommunication>
+          <ram:EmailURIUniversalCommunication>
+               <ram:URIID>buyer@buyer.com</ram:URIID>
+          </ram:EmailURIUniversalCommunication>
+     </ram:DefinedTradeContact>
+     <ram:PostalTradeAddress>
+          <ram:PostcodeCode>38000</ram:PostcodeCode>
+          <ram:LineOne>1 rue de la street</ram:LineOne>
+          <ram:CityName>Grenoble</ram:CityName>
+          <ram:CountryID>FR</ram:CountryID>
+     </ram:PostalTradeAddress>
+     <ram:URIUniversalCommunication>
+          <ram:URIID schemeID="0225">841503204_84150320400015</ram:URIID>
+     </ram:URIUniversalCommunication>
+     <ram:SpecifiedTaxRegistration>
+          <ram:ID schemeID="VA">FR71841503204</ram:ID>
+     </ram:SpecifiedTaxRegistration>
+</ram:BuyerTradeParty>
                <ram:SellerTaxRepresentativeTradeParty>
                     <ram:Name>SELLER TAX REP</ram:Name>
                     <ram:PostalTradeAddress>
@@ -413,7 +416,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                          <ram:ProprietaryID>ROMARIC DELAUNOY</ram:ProprietaryID>
                     </ram:PayeePartyCreditorFinancialAccount>
                     <ram:PayeeSpecifiedCreditorFinancialInstitution>
-                         <!-- TODO REPLACE BIC-->
+                    <!-- TODO REPLACE BIC-->
                          <ram:BICID>SNNNFR22XXX</ram:BICID>
                     </ram:PayeeSpecifiedCreditorFinancialInstitution>
                </ram:SpecifiedTradeSettlementPaymentMeans>
