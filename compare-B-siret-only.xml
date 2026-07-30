@@ -15,7 +15,7 @@
     </ram:GuidelineSpecifiedDocumentContextParameter>
   </rsm:ExchangedDocumentContext>
   <rsm:ExchangedDocument>
-    <ram:ID>4-test-siret-buyer-uri</ram:ID>
+    <ram:ID>4-test-siret-buyer-abcdef</ram:ID>
     <ram:TypeCode>380</ram:TypeCode>
     <ram:IssueDateTime>
       <udt:DateTimeString format="102">20260728</udt:DateTimeString>
