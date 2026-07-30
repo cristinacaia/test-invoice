@@ -362,7 +362,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
      </ram:URIUniversalCommunication>
      <ram:SpecifiedTaxRegistration>
           <!-- TODO REPLACE BUYER VAT: format is FR + 2-digit key + SIREN. Key = (12 + 3 * (SIREN mod 97)) mod 97 -->
-          <ram:ID schemeID="VA">FR71841503204</ram:ID>
+          <ram:ID schemeID="VA">FR40841503204</ram:ID>
      </ram:SpecifiedTaxRegistration>
 </ram:BuyerTradeParty>
                <ram:SellerTaxRepresentativeTradeParty>
