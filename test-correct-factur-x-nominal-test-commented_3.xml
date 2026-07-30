@@ -335,13 +335,13 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                <ram:BuyerTradeParty>
                     <!-- TODO REPLACE BUYER SIRET (14 digits) -->
                     <ram:GlobalID schemeID="0009">38701064800013</ram:GlobalID>
-                    <ram:Name>MONSIEUR CRISTINA CAIA</ram:Name>
+                    <ram:Name>MONSIEUR Baguette</ram:Name>
                     <ram:SpecifiedLegalOrganization>
                     <!-- TODO REPLACE BUYER SIREN -->
                     <ram:ID schemeID="0002">387010648</ram:ID>
                     </ram:SpecifiedLegalOrganization>
                     <ram:DefinedTradeContact>
-          <ram:PersonName>Cristina Caia</ram:PersonName>
+          <ram:PersonName>Baguette</ram:PersonName>
           <ram:DepartmentName>Buyer dep</ram:DepartmentName>
           <ram:TelephoneUniversalCommunication>
                <ram:CompleteNumber>0101254587</ram:CompleteNumber>
