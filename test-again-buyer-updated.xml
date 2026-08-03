@@ -14,7 +14,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
      </rsm:ExchangedDocumentContext>
      <rsm:ExchangedDocument>
           <!-- TODO REPLACE FACTURE NUMBER -->
-          <ram:ID>test-03-august-000000001</ram:ID>
+          <ram:ID>test-03-august-000000002345</ram:ID>
           <ram:TypeCode>380</ram:TypeCode>
           <ram:IssueDateTime>
                <udt:DateTimeString format="102">20251114</udt:DateTimeString>
@@ -358,7 +358,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
      </ram:PostalTradeAddress>
      <ram:URIUniversalCommunication>
           <!-- TODO REPLACE BUYER URI: format is SIREN_SIRET -->
-          <ram:URIID schemeID="0225">914948923_91494892386124</ram:URIID>
+          <ram:URIID schemeID="0225">914948923</ram:URIID>
      </ram:URIUniversalCommunication>
      <ram:SpecifiedTaxRegistration>
           <!-- TODO REPLACE BUYER VAT: format is FR + 2-digit key + SIREN. Key = (12 + 3 * (SIREN mod 97)) mod 97 -->
