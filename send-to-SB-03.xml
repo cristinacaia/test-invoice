@@ -14,7 +14,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     </rsm:ExchangedDocumentContext>
     <rsm:ExchangedDocument>
         <!-- TODO REPLACE FACTURE NUMBER -->
-        <ram:ID>test-01-1e2026af-cedd</ram:ID>
+        <ram:ID>test-01-1e2026af-aldd</ram:ID>
         <ram:TypeCode>380</ram:TypeCode>
         <ram:IssueDateTime>
             <udt:DateTimeString format="102">20251114</udt:DateTimeString>
@@ -298,12 +298,9 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </ram:IncludedSupplyChainTradeLineItem>
         <ram:ApplicableHeaderTradeAgreement>
             <ram:SellerTradeParty>
-                <ram:ID>123</ram:ID>
-                <!-- TODO REPLACE SELLER SIRET (14 digits) -->
                 <ram:GlobalID schemeID="0009">10239405300015</ram:GlobalID>
                 <ram:Name>LE FOURNISSEUR</ram:Name>
                 <ram:SpecifiedLegalOrganization>
-                    <!-- TODO REPLACE SELLER SIREN -->
                     <ram:ID schemeID="0002">102394053</ram:ID>
                     <ram:TradingBusinessName>BAGUETTE</ram:TradingBusinessName>
                 </ram:SpecifiedLegalOrganization>
@@ -324,21 +321,17 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                     <ram:CountryID>FR</ram:CountryID>
                 </ram:PostalTradeAddress>
                 <ram:URIUniversalCommunication>
-                    <!-- TODO REPLACE SELLER URI: format is SIREN_SIRET -->
                     <ram:URIID schemeID="0225">102394053_10239405300015</ram:URIID>
                 </ram:URIUniversalCommunication>
                 <ram:SpecifiedTaxRegistration>
-                    <!-- TODO REPLACE SELLER VAT: format is FR + 2-digit key + SIREN. Key = (12 + 3 * (SIREN mod 97)) mod 97 -->
                     <ram:ID schemeID="VA">FR49102394053</ram:ID>
                 </ram:SpecifiedTaxRegistration>
             </ram:SellerTradeParty>
             <ram:BuyerTradeParty>
-                <!-- TODO REPLACE BUYER SIRET (14 digits) -->
-                <ram:GlobalID schemeID="0009">35634585796605</ram:GlobalID>
+                <ram:GlobalID schemeID="0009">84150320400015</ram:GlobalID>
                 <ram:Name>MONSIEUR Baguette</ram:Name>
                 <ram:SpecifiedLegalOrganization>
-                    <!-- TODO REPLACE BUYER SIREN -->
-                    <ram:ID schemeID="0002">356345857</ram:ID>
+                    <ram:ID schemeID="0002">841503204</ram:ID>
                 </ram:SpecifiedLegalOrganization>
                 <ram:DefinedTradeContact>
                     <ram:PersonName>Baguette</ram:PersonName>
@@ -357,12 +350,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                     <ram:CountryID>FR</ram:CountryID>
                 </ram:PostalTradeAddress>
                 <ram:URIUniversalCommunication>
-                    <!-- TODO REPLACE BUYER URI: format is SIREN_SIRET -->
-                    <ram:URIID schemeID="0225">356345857_35634585796605</ram:URIID>
+                    <ram:URIID schemeID="0225">841503204_84150320400015</ram:URIID>
                 </ram:URIUniversalCommunication>
                 <ram:SpecifiedTaxRegistration>
-                    <!-- TODO REPLACE BUYER VAT: format is FR + 2-digit key + SIREN. Key = (12 + 3 * (SIREN mod 97)) mod 97 -->
-                    <ram:ID schemeID="VA">FR01356345857</ram:ID>
+                    <ram:ID schemeID="VA">FR40841503204</ram:ID>
                 </ram:SpecifiedTaxRegistration>
             </ram:BuyerTradeParty>
             <ram:SellerTaxRepresentativeTradeParty>
@@ -422,7 +413,6 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                     <ram:ProprietaryID>ROMARIC DELAUNOY</ram:ProprietaryID>
                 </ram:PayeePartyCreditorFinancialAccount>
                 <ram:PayeeSpecifiedCreditorFinancialInstitution>
-                    <!-- TODO REPLACE BIC-->
                     <ram:BICID>SNNNFR22XXX</ram:BICID>
                 </ram:PayeeSpecifiedCreditorFinancialInstitution>
             </ram:SpecifiedTradeSettlementPaymentMeans>
