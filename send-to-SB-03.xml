@@ -14,7 +14,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     </rsm:ExchangedDocumentContext>
     <rsm:ExchangedDocument>
         <!-- TODO REPLACE FACTURE NUMBER -->
-        <ram:ID>test-01-1e2026af-dddd</ram:ID>
+        <ram:ID>test-01-1e2026af-cedd</ram:ID>
         <ram:TypeCode>380</ram:TypeCode>
         <ram:IssueDateTime>
             <udt:DateTimeString format="102">20251114</udt:DateTimeString>
