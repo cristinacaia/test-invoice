@@ -15,7 +15,7 @@
     </ram:GuidelineSpecifiedDocumentContextParameter>
   </rsm:ExchangedDocumentContext>
   <rsm:ExchangedDocument>
-    <ram:ID>sept-11-friday-13</ram:ID>
+    <ram:ID>sept-11-friday-14</ram:ID>
     <ram:TypeCode>380</ram:TypeCode>
     <ram:IssueDateTime>
       <udt:DateTimeString format="102">20260909</udt:DateTimeString>
@@ -51,7 +51,6 @@
       </ram:SpecifiedTradeProduct>
       <ram:SpecifiedLineTradeAgreement>
         <ram:NetPriceProductTradePrice>
-        //TODO
           <ram:ChargeAmount>60</ram:ChargeAmount>
           <ram:BasisQuantity unitCode="C62">1.0000</ram:BasisQuantity>
         </ram:NetPriceProductTradePrice>
@@ -74,7 +73,6 @@
           </ram:EndDateTime>
         </ram:BillingSpecifiedPeriod>
         <ram:SpecifiedTradeSettlementLineMonetarySummation>
-        // TODO
           <ram:LineTotalAmount>60</ram:LineTotalAmount>
         </ram:SpecifiedTradeSettlementLineMonetarySummation>
       </ram:SpecifiedLineTradeSettlement>
