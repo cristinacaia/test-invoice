@@ -6,7 +6,7 @@ xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
      <rsm:ExchangedDocumentContext>
           <ram:BusinessProcessSpecifiedDocumentContextParameter>
-               <ram:ID>A1E59DF0-F465</ram:ID>
+               <ram:ID>S1</ram:ID>
           </ram:BusinessProcessSpecifiedDocumentContextParameter>
           <ram:GuidelineSpecifiedDocumentContextParameter>
                <ram:ID>urn:cen.eu:en16931:2017</ram:ID>
@@ -14,7 +14,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
      </rsm:ExchangedDocumentContext>
      <rsm:ExchangedDocument>
           <!-- TODO REPLACE FACTURE NUMBER -->
-          <ram:ID>test-lala-13-august-01</ram:ID>
+          <ram:ID>A1E59DF0-F465</ram:ID>
           <ram:TypeCode>380</ram:TypeCode>
           <ram:IssueDateTime>
                <udt:DateTimeString format="102">20251114</udt:DateTimeString>
@@ -308,7 +308,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                          <ram:TradingBusinessName>BAGUETTE</ram:TradingBusinessName>
                     </ram:SpecifiedLegalOrganization>
                     <ram:DefinedTradeContact>
-                         <ram:PersonName>Jean Pierre Baguette</ram:PersonName>
+                         <ram:PersonName>Sending Test</ram:PersonName>
                          <ram:DepartmentName>DEP SELLER</ram:DepartmentName>
                          <ram:TelephoneUniversalCommunication>
                               <ram:CompleteNumber>0102035487</ram:CompleteNumber>
@@ -335,13 +335,13 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                <ram:BuyerTradeParty>
                     <!-- TODO REPLACE BUYER SIRET (14 digits) -->
                     <ram:GlobalID schemeID="0009">821665544</ram:GlobalID>
-                    <ram:Name>MONSIEUR Baguette</ram:Name>
+                    <ram:Name>MONSIEUR Test</ram:Name>
                     <ram:SpecifiedLegalOrganization>
                     <!-- TODO REPLACE BUYER SIREN -->
                     <ram:ID schemeID="0002">821665544</ram:ID>
                     </ram:SpecifiedLegalOrganization>
                     <ram:DefinedTradeContact>
-          <ram:PersonName>Baguette</ram:PersonName>
+          <ram:PersonName>TestSending</ram:PersonName>
           <ram:DepartmentName>Buyer dep</ram:DepartmentName>
           <ram:TelephoneUniversalCommunication>
                <ram:CompleteNumber>0101254587</ram:CompleteNumber>
@@ -353,7 +353,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
      <ram:PostalTradeAddress>
           <ram:PostcodeCode>38000</ram:PostcodeCode>
           <ram:LineOne>1 rue de la street</ram:LineOne>
-          <ram:CityName>Grenoble</ram:CityName>
+          <ram:CityName>Paris</ram:CityName>
           <ram:CountryID>FR</ram:CountryID>
      </ram:PostalTradeAddress>
      <ram:URIUniversalCommunication>
