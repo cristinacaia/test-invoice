@@ -15,7 +15,7 @@
     </ram:GuidelineSpecifiedDocumentContextParameter>
   </rsm:ExchangedDocumentContext>
   <rsm:ExchangedDocument>
-    <ram:ID>sept-11-friday-23</ram:ID>
+    <ram:ID>sept-11-friday-24</ram:ID>
     <ram:TypeCode>380</ram:TypeCode>
     <ram:IssueDateTime>
       <udt:DateTimeString format="102">20260909</udt:DateTimeString>
@@ -149,7 +149,7 @@
       <ram:BuyerTradeParty>
         <ram:Name>HOUSING </ram:Name>
         <ram:SpecifiedLegalOrganization>
-          <ram:ID schemeID="0002">980937106</ram:ID>
+          <ram:ID schemeID="0002">390710358</ram:ID>
         </ram:SpecifiedLegalOrganization>
         <ram:DefinedTradeContact>
           <ram:PersonName>HOUSING</ram:PersonName>
@@ -167,7 +167,7 @@
           <ram:CountryID>FR</ram:CountryID>
         </ram:PostalTradeAddress>
         <ram:URIUniversalCommunication>
-          <ram:URIID schemeID="0225">980937106</ram:URIID>
+          <ram:URIID schemeID="0225">390710358</ram:URIID>
         </ram:URIUniversalCommunication>
         <ram:SpecifiedTaxRegistration>
           <ram:ID schemeID="VA">FR21842582355</ram:ID>
