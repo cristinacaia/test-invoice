@@ -15,7 +15,7 @@
     </ram:GuidelineSpecifiedDocumentContextParameter>
   </rsm:ExchangedDocumentContext>
   <rsm:ExchangedDocument>
-    <ram:ID>sept-11-friday-05</ram:ID>
+    <ram:ID>sept-11-friday-06</ram:ID>
     <ram:TypeCode>380</ram:TypeCode>
     <ram:IssueDateTime>
       <udt:DateTimeString format="102">20260909</udt:DateTimeString>
