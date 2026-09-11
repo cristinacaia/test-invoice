@@ -51,42 +51,7 @@
       </ram:SpecifiedTradeProduct>
       <ram:SpecifiedLineTradeAgreement>
         <ram:NetPriceProductTradePrice>
-          <ram:ChargeAmount>83.3300</ram:ChargeAmount>
-          <ram:BasisQuantity unitCode="C62">1.0000</ram:BasisQuantity>
-        </ram:NetPriceProductTradePrice>
-      </ram:SpecifiedLineTradeAgreement>
-      <ram:SpecifiedLineTradeDelivery>
-        <ram:BilledQuantity unitCode="C62">5.0000</ram:BilledQuantity>
-      </ram:SpecifiedLineTradeDelivery>
-      <ram:SpecifiedLineTradeSettlement>
-        <ram:ApplicableTradeTax>
-          <ram:TypeCode>VAT</ram:TypeCode>
-          <ram:CategoryCode>S</ram:CategoryCode>
-          <ram:RateApplicablePercent>20.00</ram:RateApplicablePercent>
-        </ram:ApplicableTradeTax>
-        <ram:BillingSpecifiedPeriod>
-          <ram:StartDateTime>
-            <udt:DateTimeString format="102">20260909</udt:DateTimeString>
-          </ram:StartDateTime>
-          <ram:EndDateTime>
-            <udt:DateTimeString format="102">20260909</udt:DateTimeString>
-          </ram:EndDateTime>
-        </ram:BillingSpecifiedPeriod>
-        <ram:SpecifiedTradeSettlementLineMonetarySummation>
-          <ram:LineTotalAmount>416.65</ram:LineTotalAmount>
-        </ram:SpecifiedTradeSettlementLineMonetarySummation>
-      </ram:SpecifiedLineTradeSettlement>
-    </ram:IncludedSupplyChainTradeLineItem>
-    <ram:IncludedSupplyChainTradeLineItem>
-      <ram:AssociatedDocumentLineDocument>
-        <ram:LineID>2</ram:LineID>
-      </ram:AssociatedDocumentLineDocument>
-      <ram:SpecifiedTradeProduct>
-        <ram:Name>Conception de logo</ram:Name>
-      </ram:SpecifiedTradeProduct>
-      <ram:SpecifiedLineTradeAgreement>
-        <ram:NetPriceProductTradePrice>
-          <ram:ChargeAmount>41.6700</ram:ChargeAmount>
+          <ram:ChargeAmount>122.9500</ram:ChargeAmount>
           <ram:BasisQuantity unitCode="C62">1.0000</ram:BasisQuantity>
         </ram:NetPriceProductTradePrice>
       </ram:SpecifiedLineTradeAgreement>
@@ -108,7 +73,42 @@
           </ram:EndDateTime>
         </ram:BillingSpecifiedPeriod>
         <ram:SpecifiedTradeSettlementLineMonetarySummation>
-          <ram:LineTotalAmount>41.67</ram:LineTotalAmount>
+          <ram:LineTotalAmount>122.95</ram:LineTotalAmount>
+        </ram:SpecifiedTradeSettlementLineMonetarySummation>
+      </ram:SpecifiedLineTradeSettlement>
+    </ram:IncludedSupplyChainTradeLineItem>
+    <ram:IncludedSupplyChainTradeLineItem>
+      <ram:AssociatedDocumentLineDocument>
+        <ram:LineID>2</ram:LineID>
+      </ram:AssociatedDocumentLineDocument>
+      <ram:SpecifiedTradeProduct>
+        <ram:Name>Conception de logo</ram:Name>
+      </ram:SpecifiedTradeProduct>
+      <ram:SpecifiedLineTradeAgreement>
+        <ram:NetPriceProductTradePrice>
+          <ram:ChargeAmount>132.3200</ram:ChargeAmount>
+          <ram:BasisQuantity unitCode="C62">1.0000</ram:BasisQuantity>
+        </ram:NetPriceProductTradePrice>
+      </ram:SpecifiedLineTradeAgreement>
+      <ram:SpecifiedLineTradeDelivery>
+        <ram:BilledQuantity unitCode="C62">1.0000</ram:BilledQuantity>
+      </ram:SpecifiedLineTradeDelivery>
+      <ram:SpecifiedLineTradeSettlement>
+        <ram:ApplicableTradeTax>
+          <ram:TypeCode>VAT</ram:TypeCode>
+          <ram:CategoryCode>S</ram:CategoryCode>
+          <ram:RateApplicablePercent>20.00</ram:RateApplicablePercent>
+        </ram:ApplicableTradeTax>
+        <ram:BillingSpecifiedPeriod>
+          <ram:StartDateTime>
+            <udt:DateTimeString format="102">20260909</udt:DateTimeString>
+          </ram:StartDateTime>
+          <ram:EndDateTime>
+            <udt:DateTimeString format="102">20260909</udt:DateTimeString>
+          </ram:EndDateTime>
+        </ram:BillingSpecifiedPeriod>
+        <ram:SpecifiedTradeSettlementLineMonetarySummation>
+          <ram:LineTotalAmount>132.32</ram:LineTotalAmount>
         </ram:SpecifiedTradeSettlementLineMonetarySummation>
       </ram:SpecifiedLineTradeSettlement>
     </ram:IncludedSupplyChainTradeLineItem>
@@ -201,9 +201,9 @@
         </ram:PayeeSpecifiedCreditorFinancialInstitution>
       </ram:SpecifiedTradeSettlementPaymentMeans>
       <ram:ApplicableTradeTax>
-        <ram:CalculatedAmount>91.66</ram:CalculatedAmount>
+        <ram:CalculatedAmount>51.05</ram:CalculatedAmount>
         <ram:TypeCode>VAT</ram:TypeCode>
-        <ram:BasisAmount>458.32</ram:BasisAmount>
+        <ram:BasisAmount>255.27</ram:BasisAmount>
         <ram:CategoryCode>S</ram:CategoryCode>
         <ram:DueDateTypeCode>72</ram:DueDateTypeCode>
         <ram:RateApplicablePercent>20.00</ram:RateApplicablePercent>
@@ -215,14 +215,14 @@
         </ram:DueDateDateTime>
       </ram:SpecifiedTradePaymentTerms>
       <ram:SpecifiedTradeSettlementHeaderMonetarySummation>
-        <ram:LineTotalAmount>458.32</ram:LineTotalAmount>
+        <ram:LineTotalAmount>255.27</ram:LineTotalAmount>
         <ram:ChargeTotalAmount>0.00</ram:ChargeTotalAmount>
         <ram:AllowanceTotalAmount>0.00</ram:AllowanceTotalAmount>
-        <ram:TaxBasisTotalAmount>458.32</ram:TaxBasisTotalAmount>
-        <ram:TaxTotalAmount currencyID="EUR">91.66</ram:TaxTotalAmount>
-        <ram:GrandTotalAmount>549.98</ram:GrandTotalAmount>
+        <ram:TaxBasisTotalAmount>255.27</ram:TaxBasisTotalAmount>
+        <ram:TaxTotalAmount currencyID="EUR">51.05</ram:TaxTotalAmount>
+        <ram:GrandTotalAmount>306.32</ram:GrandTotalAmount>
         <ram:TotalPrepaidAmount>0.00</ram:TotalPrepaidAmount>
-        <ram:DuePayableAmount>549.98</ram:DuePayableAmount>
+        <ram:DuePayableAmount>306.32</ram:DuePayableAmount>
       </ram:SpecifiedTradeSettlementHeaderMonetarySummation>
     </ram:ApplicableHeaderTradeSettlement>
   </rsm:SupplyChainTradeTransaction>
