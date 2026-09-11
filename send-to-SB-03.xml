@@ -15,7 +15,7 @@
     </ram:GuidelineSpecifiedDocumentContextParameter>
   </rsm:ExchangedDocumentContext>
   <rsm:ExchangedDocument>
-    <ram:ID>sept-11-friday-06</ram:ID>
+    <ram:ID>sept-11-friday-07</ram:ID>
     <ram:TypeCode>380</ram:TypeCode>
     <ram:IssueDateTime>
       <udt:DateTimeString format="102">20260909</udt:DateTimeString>
@@ -116,7 +116,7 @@
       <ram:BuyerReference>UNKNOWN</ram:BuyerReference>
       <ram:SellerTradeParty>
         <ram:GlobalID schemeID="0002">367102126</ram:GlobalID>
-        <ram:Name>Bartosz 01 sending1@shine.co</ram:Name>
+        <ram:Name>Test e-invoicing-sending 01</ram:Name>
         <ram:SpecifiedLegalOrganization>  
           <ram:ID schemeID="0002">367102126</ram:ID>
           <ram:TradingBusinessName>test au capital de 5 €</ram:TradingBusinessName>
