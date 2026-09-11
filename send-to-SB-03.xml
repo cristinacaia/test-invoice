@@ -1,9 +1,8 @@
-```xml
 <?xml version="1.0" encoding="utf-8"?>
 <rsm:CrossIndustryInvoice xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100" xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100" xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:100" xmlns:rsm="urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100">
   <rsm:ExchangedDocumentContext>
     <ram:BusinessProcessSpecifiedDocumentContextParameter>
-      <ram:ID>A1</ram:ID>
+      <ram:ID>S1</ram:ID>
     </ram:BusinessProcessSpecifiedDocumentContextParameter>
     <ram:GuidelineSpecifiedDocumentContextParameter>
       <ram:ID>urn:cen.eu:en16931:2017#compliant#urn:factur-x.eu:1p0:basic</ram:ID>
@@ -82,7 +81,7 @@
           <ram:URIID schemeID="0225">915403323</ram:URIID>
         </ram:URIUniversalCommunication>
         <ram:SpecifiedTaxRegistration>
-          <ram:ID schemeID="VA">FR96706681665</ram:ID>
+          <ram:ID schemeID="VA">FR10915403323</ram:ID>
         </ram:SpecifiedTaxRegistration>
       </ram:BuyerTradeParty>
     </ram:ApplicableHeaderTradeAgreement>
@@ -114,4 +113,3 @@
     </ram:ApplicableHeaderTradeSettlement>
   </rsm:SupplyChainTradeTransaction>
 </rsm:CrossIndustryInvoice>
-```
