@@ -15,7 +15,7 @@
     </ram:GuidelineSpecifiedDocumentContextParameter>
   </rsm:ExchangedDocumentContext>
   <rsm:ExchangedDocument>
-    <ram:ID>sept-11-friday-07</ram:ID>
+    <ram:ID>sept-11-friday-08</ram:ID>
     <ram:TypeCode>380</ram:TypeCode>
     <ram:IssueDateTime>
       <udt:DateTimeString format="102">20260909</udt:DateTimeString>
@@ -51,12 +51,12 @@
       </ram:SpecifiedTradeProduct>
       <ram:SpecifiedLineTradeAgreement>
         <ram:NetPriceProductTradePrice>
-          <ram:ChargeAmount>122.9500</ram:ChargeAmount>
+          <ram:ChargeAmount>85.7900</ram:ChargeAmount>
           <ram:BasisQuantity unitCode="C62">1.0000</ram:BasisQuantity>
         </ram:NetPriceProductTradePrice>
       </ram:SpecifiedLineTradeAgreement>
       <ram:SpecifiedLineTradeDelivery>
-        <ram:BilledQuantity unitCode="C62">1.0000</ram:BilledQuantity>
+        <ram:BilledQuantity unitCode="C62">10.0000</ram:BilledQuantity>
       </ram:SpecifiedLineTradeDelivery>
       <ram:SpecifiedLineTradeSettlement>
         <ram:ApplicableTradeTax>
@@ -73,7 +73,7 @@
           </ram:EndDateTime>
         </ram:BillingSpecifiedPeriod>
         <ram:SpecifiedTradeSettlementLineMonetarySummation>
-          <ram:LineTotalAmount>122.95</ram:LineTotalAmount>
+          <ram:LineTotalAmount>1519.49</ram:LineTotalAmount>
         </ram:SpecifiedTradeSettlementLineMonetarySummation>
       </ram:SpecifiedLineTradeSettlement>
     </ram:IncludedSupplyChainTradeLineItem>
@@ -115,19 +115,19 @@
     <ram:ApplicableHeaderTradeAgreement>
       <ram:BuyerReference>UNKNOWN</ram:BuyerReference>
       <ram:SellerTradeParty>
-        <ram:GlobalID schemeID="0002">367102126</ram:GlobalID>
-        <ram:Name>Test e-invoicing-sending 01</ram:Name>
+        <ram:GlobalID schemeID="0002">821665544</ram:GlobalID>
+        <ram:Name>Shine sending</ram:Name>
         <ram:SpecifiedLegalOrganization>  
-          <ram:ID schemeID="0002">367102126</ram:ID>
+          <ram:ID schemeID="0002">821665544</ram:ID>
           <ram:TradingBusinessName>test au capital de 5 €</ram:TradingBusinessName>
         </ram:SpecifiedLegalOrganization>
         <ram:DefinedTradeContact>
-          <ram:PersonName>Invoicing Sending</ram:PersonName>
+          <ram:PersonName>Invoicing Sending 001</ram:PersonName>
           <ram:TelephoneUniversalCommunication>
             <ram:CompleteNumber>UNKNOWN</ram:CompleteNumber>
           </ram:TelephoneUniversalCommunication>
           <ram:EmailURIUniversalCommunication>
-            <ram:URIID>sending1@shine.co</ram:URIID>
+            <ram:URIID>test@shine.co</ram:URIID>
           </ram:EmailURIUniversalCommunication>
         </ram:DefinedTradeContact>
         <ram:PostalTradeAddress>
@@ -137,19 +137,19 @@
           <ram:CountryID>FR</ram:CountryID>
         </ram:PostalTradeAddress>
         <ram:URIUniversalCommunication>
-          <ram:URIID schemeID="0225">367102126</ram:URIID>
+          <ram:URIID schemeID="0225">821665544</ram:URIID>
         </ram:URIUniversalCommunication>
         <ram:SpecifiedTaxRegistration>
-          <ram:ID schemeID="VA">FR12367102126</ram:ID>
+          <ram:ID schemeID="VA">FR12821665544</ram:ID>
         </ram:SpecifiedTaxRegistration>
         <ram:SpecifiedTaxRegistration>
-          <ram:ID schemeID="FC">367102126</ram:ID>
+          <ram:ID schemeID="FC">821665544</ram:ID>
         </ram:SpecifiedTaxRegistration>
       </ram:SellerTradeParty>
       <ram:BuyerTradeParty>
         <ram:Name>HOUSING </ram:Name>
         <ram:SpecifiedLegalOrganization>  
-          <ram:ID schemeID="0002">821665544</ram:ID>
+          <ram:ID schemeID="0002">980937106</ram:ID>
         </ram:SpecifiedLegalOrganization>
         <ram:DefinedTradeContact>
           <ram:PersonName>HOUSING </ram:PersonName>
@@ -162,12 +162,12 @@
         </ram:DefinedTradeContact>
         <ram:PostalTradeAddress>
           <ram:PostcodeCode>12345</ram:PostcodeCode>
-          <ram:LineOne>63 RUE DE BAGUETTE</ram:LineOne>
+          <ram:LineOne>63 RUE DE Paris</ram:LineOne>
           <ram:CityName>LE LOROUX</ram:CityName>
           <ram:CountryID>FR</ram:CountryID>
         </ram:PostalTradeAddress>
         <ram:URIUniversalCommunication>
-          <ram:URIID schemeID="0225">821665544</ram:URIID>
+          <ram:URIID schemeID="0225">980937106</ram:URIID>
         </ram:URIUniversalCommunication>
         <ram:SpecifiedTaxRegistration>
           <ram:ID schemeID="VA">FR21842582355</ram:ID>
@@ -201,9 +201,9 @@
         </ram:PayeeSpecifiedCreditorFinancialInstitution>
       </ram:SpecifiedTradeSettlementPaymentMeans>
       <ram:ApplicableTradeTax>
-        <ram:CalculatedAmount>51.05</ram:CalculatedAmount>
+        <ram:CalculatedAmount>303.9</ram:CalculatedAmount>
         <ram:TypeCode>VAT</ram:TypeCode>
-        <ram:BasisAmount>255.27</ram:BasisAmount>
+        <ram:BasisAmount>1519.49</ram:BasisAmount>
         <ram:CategoryCode>S</ram:CategoryCode>
         <ram:DueDateTypeCode>72</ram:DueDateTypeCode>
         <ram:RateApplicablePercent>20.00</ram:RateApplicablePercent>
@@ -218,11 +218,11 @@
         <ram:LineTotalAmount>255.27</ram:LineTotalAmount>
         <ram:ChargeTotalAmount>0.00</ram:ChargeTotalAmount>
         <ram:AllowanceTotalAmount>0.00</ram:AllowanceTotalAmount>
-        <ram:TaxBasisTotalAmount>255.27</ram:TaxBasisTotalAmount>
-        <ram:TaxTotalAmount currencyID="EUR">51.05</ram:TaxTotalAmount>
-        <ram:GrandTotalAmount>306.32</ram:GrandTotalAmount>
+        <ram:TaxBasisTotalAmount>1519.49</ram:TaxBasisTotalAmount>
+        <ram:TaxTotalAmount currencyID="EUR">303.9</ram:TaxTotalAmount>
+        <ram:GrandTotalAmount>1823.39</ram:GrandTotalAmount>
         <ram:TotalPrepaidAmount>0.00</ram:TotalPrepaidAmount>
-        <ram:DuePayableAmount>306.32</ram:DuePayableAmount>
+        <ram:DuePayableAmount>1823.39</ram:DuePayableAmount>
       </ram:SpecifiedTradeSettlementHeaderMonetarySummation>
     </ram:ApplicableHeaderTradeSettlement>
   </rsm:SupplyChainTradeTransaction>
