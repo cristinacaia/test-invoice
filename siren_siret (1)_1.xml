@@ -128,7 +128,7 @@
         <ram:Name>Bartosz 01 sending1@shine.co</ram:Name>
         <ram:SpecifiedLegalOrganization>
           <ram:ID schemeID="0002">880761945</ram:ID>
-          <ram:TradingBusinessName>test au capital de 5 €</ram:TradingBusinessName>
+          <ram:TradingBusinessName>test capital de 5 €</ram:TradingBusinessName>
         </ram:SpecifiedLegalOrganization>
         <ram:DefinedTradeContact>
           <ram:PersonName>Invoicing Sending</ram:PersonName>
