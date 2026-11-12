@@ -25,7 +25,7 @@
       <udt:DateTimeString format="102">20260909</udt:DateTimeString>
     </ram:IssueDateTime>
     <ram:IncludedNote>
-      <ram:Content>Nous vous remercions de votre confiance. Veuillez trouver ci-dessous le détail de
+      <ram:Content> vous remercions de votre confiance. Veuillez trouver ci-dessous le détail de
         nos prestations.</ram:Content>
       <ram:SubjectCode>AAI</ram:SubjectCode>
     </ram:IncludedNote>
